@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary ❤️</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Georgia,serif;
+ background:linear-gradient(135deg,#3d1730,#8d4660,#e5b7a0);
+ color:#fff;
+ text-align:center;
+}
+.card{
+ max-width:480px;
+ margin:25px auto;
+ padding:25px 18px;
+ background:linear-gradient(160deg,#fff3e8,#f9dce2);
+ color:#71374c;
+ border-radius:25px;
+ box-shadow:0 0 30px #32101d;
+ overflow:hidden;
+}
+section{
+ padding:25px 10px;
+ border-bottom:1px solid #d9a5b2;
+}
+h1{font-size:32px;color:#a33c62}
+h2{color:#a33c62}
+.heart{font-size:40px;animation:pulse 1s infinite}
+@keyframes pulse{50%{transform:scale(1.2)}}
+p{line-height:1.8;font-size:17px}
+button{
+ background:#a33c62;color:white;
+ border:0;border-radius:25px;
+ padding:12px 22px;font-size:16px;
+ margin:10px;cursor:pointer;
+}
+.answer{
+ display:none;
+ background:#fff;
+ border-radius:15px;
+ padding:15px;
+ margin:12px 0;
+ color:#853c59;
+}
+.couple{
+ font-size:65px;
+ margin:15px;
+}
+.names{
+ font-size:25px;
+ font-weight:bold;
+ color:#9b345c;
+}
+.final{
+ background:#a33c62;
+ color:white;
+ border-radius:20px;
+ padding:25px 10px;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+<section>
+<div class="heart">❤️</div>
+<h1>Happy Anniversary</h1>
+<h2>Chote Mama & Chote Mami</h2>
+<p>💐 Two Hearts, One Beautiful Journey 💐</p>
+<p>May Allah bless your beautiful bond forever!</p>
+</section>
+
+<section>
+<h2>💕 A Little Compliment</h2>
+<p>
+Some couples are made for each other, and you both are one of them.
+Your smiles, your understanding and the way you stand beside each other
+make your relationship truly special.
+</p>
+<p>
+Aap dono ko saath dekhkar lagta hai ki asli mohabbat sirf
+kehne mein nahi, balki ek dusre ka saath nibhane mein hoti hai. ❤️
+</p>
+</section>
+
+<section>
+<h2>🎮 Let's Play a Love Game!</h2>
+<p><b>Question for Chote Mami:</b></p>
+<p>Chote Mama ko aap kis cute nickname se bulati hain?</p>
+<button onclick="show('a1')">Reveal Question 💗</button>
+<div class="answer" id="a1">
+Apna answer bataiye Chote Mami! 😍
+</div>
+
+<p><b>Question for Chote Mama:</b></p>
+<p>Chote Mami ko aap pyaar se kis naam se bulate hain?</p>
+<button onclick="show('a2')">Reveal Question 💗</button>
+<div class="answer" id="a2">
+Chote Mama, ab aapki baari! ❤️
+</div>
+</section>
+
+<section>
+<h2>😂 Couple Challenge</h2>
+
+<p>1. Aap dono mein zyada gussa kaun karta hai?</p>
+<button onclick="show('a3')">Reveal</button>
+<div class="answer" id="a3">Sach sach batana! 😜</div>
+
+<p>2. Sabse pehle sorry kaun bolta hai?</p>
+<button onclick="show('a4')">Reveal</button>
+<div class="answer" id="a4">Jo pehle manaye, wahi winner! 😂</div>
+
+<p>3. Aap dono mein zyada romantic kaun hai?</p>
+<button onclick="show('a5')">Reveal</button>
+<div class="answer" id="a5">Dono ek dusre ki taraf ishara karein! ❤️</div>
+
+<p>4. Aap dono ki sabse favourite memory kaunsi hai?</p>
+<button onclick="show('a6')">Reveal</button>
+<div class="answer" id="a6">Ek dusre ko apni favourite memory batayein! 🥰</div>
+</section>
+
+<section>
+<h2>🕌 A Beautiful Islamic Couple</h2>
+
+<div class="couple">🤵🏻‍♂️ ❤️ 🧕🏻</div>
+
+<div class="names">Imran & Tabassum</div>
+
+<p>
+May Allah put endless Barakah in your marriage,
+fill your home with peace, love and happiness,
+and keep your hearts connected in this world
+and reunite you in Jannah.
+</p>
+
+<p><b>رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا قُرَّةَ أَعْيُنٍ</b></p>
+
+<p>
+May Allah bless your togetherness with endless mercy. 🤲
+</p>
+</section>
+
+<section class="final">
+<div class="heart">💖</div>
+<h1 style="color:white">Happy Anniversary!</h1>
+<h2 style="color:#ffe3b8">Chote Mama & Chote Mami</h2>
+<p>
+Stay blessed, stay happy and keep loving each other forever.
+</p>
+<p>Lots of love! ❤️</p>
+<p><b>Made with Love 💝</b></p>
+</section>
+
+</div>
+
+<script>
+function show(id){
+ const box=document.getElementById(id);
+ box.style.display=box.style.display==="block"?"none":"block";
+}
+</script>
+
+</body>
+  </html>
+  
